@@ -1,0 +1,54 @@
+ *{
+    margin: 0;
+    box-sizing: border-box;
+
+ }
+ .text-wrapper{
+    display: flex;
+
+    background: rgb(164, 18, 18);
+    overflow: hidden;
+ }
+ .text{
+    text-transform: uppercase;
+    color: white;
+    white-space: nowrap;
+    padding: 0 66rem;
+    letter-spacing: 1px;
+    animation: move-rtl 50s linear infinite;
+    overflow: hidden;
+ }
+ @media screen and(max-width:550px){
+   .text{
+      padding: 0 65rem;
+   }
+ }
+ span{
+   font-size: 0.8rem;
+   font-family:'Open Sans', sans-serif;
+ }
+ 
+ @keyframes move-rtl{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+ }
+
+.announcement-div{
+   display: flex;
+
+   background-color: black;
+   flex-direction: row;
+   padding-right: 0.6rem;
+   z-index: 100;
+  
+}
+
+
+#text-1{
+   padding-top: 1rem;
+   margin-right: 7rem;
+}

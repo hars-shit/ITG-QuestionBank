@@ -1,0 +1,33 @@
+.icon-holder{
+    display: flex;
+    margin-bottom: 0.4rem;
+
+    flex-direction: column;
+}
+.horiLine{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.icons{
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+    display: flex;
+}
+#faceIcon{
+    padding-right: 1rem;
+}
+
+#mailIcon{
+    padding-right: 1rem;
+}
+#instaIcon{
+    padding-right: 1rem;
+}
+.collageTag{
+    padding-left: 1.5rem;
+}
+p{
+font-size: 14px;
+    padding-right: 76px;
+    font-weight: 700;
+}

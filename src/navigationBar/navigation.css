@@ -1,0 +1,143 @@
+img{
+    width: 28rem;
+    height: auto;
+}
+
+
+.nav{
+    width: 100%;
+    height: auto;
+}
+.lowerNav{
+    color: black;
+   font-size: 18px;
+   font-weight: 600;
+    font-family: 'Crete Round', serif;
+}
+.luis{
+    width: 100vw;
+    
+}
+
+.navlink{
+    width: 100%;
+}
+
+@media screen and (max-width:995px){
+    img{
+        width: 18rem;
+    }
+}
+@media screen and (max-width:755px) {
+    .nav{
+        width: 1000px;
+    
+    }
+    img{
+        width: 80%;
+      
+    }
+   
+}
+
+.iconReact{
+    color: blue;
+    font-size: 2rem;
+}
+.dropdown-item{
+    font-weight: 700;
+}
+@media screen and (max-width:550px){
+    .nav{
+        width: 100%;
+    }
+    .iconReact{
+        font-size: 1.3rem;
+    }
+    .list-ele{
+        width: 100%;
+       
+    }
+    .container-fluid{
+        flex-direction: column;
+    }
+    img{
+        width: 90%;
+    }
+  span{
+    font-size: 1rem;
+  }
+ 
+}
+.nav{
+    float: right;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.list-ele{
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+/* .navbar-toggler{
+    background-color: brown;
+} */
+.sampleImage{
+    height: 2rem;
+}
+.branches{
+    color: rgba(65, 49, 49, 0.83);
+    font-size: 1rem;
+    font-weight: 700;
+    
+}
+.dropdown-menu{
+    border: none;
+    
+}
+.branches:hover{
+    color: rgba(65, 49, 49, 0.83);
+    font-size: 1rem;
+    font-weight: 700;
+    
+}
+/* .nav-link:hover{
+    color: rgb(16 16 16 / 83%);
+    font-weight: 600;
+    font-size: 20px;
+}
+span:hover{
+    outline: none;
+    border: none;
+} */
+h5{
+    display: flex;
+    align-items: inherit;
+    column-gap: 0.5rem;
+    font-family: 'Oswald', sans-serif;
+   
+    -webkit-text-stroke-width: thin;
+}
+
+#horizentalLine{
+    margin-top: -1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.offcanvas{
+    background-color:white;
+}
+button{
+    border: none;
+    background-color: white;
+}
+.closeButton{
+    font-size: 1.5rem;
+    color:#724d4d;
+}
+.offcanvas-header{
+    margin-left: -1rem;
+    margin-top: -0.6rem;
+    justify-content: flex-start;
+}

@@ -1,0 +1,79 @@
+.inside-body-section {
+    padding: 0px 3px;
+}
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+.card {
+    font-weight: 400;
+    border: 0;
+    -webkit-box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+.inside-body-section .inside-card .card-header {
+    background-color:rgb(127, 20, 20);
+    color: #fff;
+    font-size: 25px;
+
+}
+.card-header{
+        font-size: 19px;
+        font-family: unset;
+        font-weight: 549;
+        background-color: #a42424;
+        color: white;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+.list-gr {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.list-group {
+    
+    display: flex;
+}
+
+.card-body{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width : 576px){
+    .card-body{
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+select{
+    margin-top: 30px;
+}
+.quesnPapers{
+    flex-direction: column;
+    display: flex;
+    padding-bottom: 2rem;
+}

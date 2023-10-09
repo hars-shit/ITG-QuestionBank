@@ -1,0 +1,40 @@
+.container{
+    padding: 16px 16px;  
+}
+.container-body{
+    display: flex;
+    gap: 15px;
+    
+}
+.branch-btn{
+    font-size: 15px;
+    border: 1px solid;
+    width: 120px;
+    height: 30px;
+    
+    border-radius: 12px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(89, 80, 43);
+}
+.ece{
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.child-btn{
+    border: 1px solid;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    background-color: brown;
+}
+.ece-link{
+    color: white;
+
+}
+.menu{
+    /* border: 1px solid; */
+    /* border-radius: 14px; */
+    padding: 5px 5px;
+    background:transparent;
+}

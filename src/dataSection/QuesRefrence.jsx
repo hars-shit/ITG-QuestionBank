@@ -25,7 +25,7 @@ import axios from 'axios'
                 }
             }
             fetchData();
-        })
+        },[URI_SECOND_YEAR])
         useEffect(()=>{
             const fetchData=async()=>{
                 try{
@@ -38,7 +38,7 @@ import axios from 'axios'
                 }
             }
             fetchData();
-        })
+        },[URI_THIRD_YEAR])
         useEffect(()=>{
             const fetchData=async()=>{
                 try{
@@ -51,7 +51,7 @@ import axios from 'axios'
                 }
             }
             fetchData();
-        })
+        },[URI_FOURTH_YEAR])
 // internal css 
     const Styles={
         subject:{
